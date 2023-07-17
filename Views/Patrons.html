@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js">
+    </script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ICO" href="../assets/images/faviconSvce.jpg" />
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/proshows.css">
+    <title>Josh 2023</title>
+    <!-- SEO -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Riviera 2K20">
+    <meta property="og:description"
+        content="Riviera is the Annual International Sports and Cultural Carnival of the Vellore Institute of Technology. It is an International 4-day event that consists of sports competitions, social and cultural events along with concerts.">
+    <meta property="og:url" content="riviera.com">
+    <meta property="og:site_name" content="Riviera 2K20 | VIT Biggest Event">
+    <meta property="article:publisher" content="riviera.com">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@pmsharma">
+    <meta name="twitter:title" content="Purushottam Sharma| Full Stack Developer">
+    <meta name="twitter:description"
+        content="Riviera is the Annual International Sports and Cultural Carnival of the Vellore Institute of Technology. It is an International 4-day event that consists of sports competitions, social and cultural events along with concerts.">
+    <meta name="twitter:url" content="riviera.com">
+    <meta name="author" content="Purushootam Sharma | Ananya Ganesh | Ashutosh Kaushik">
+    <meta name="description"
+        content="Riviera is the Annual International Sports and Cultural Carnival of the Vellore Institute of Technology. It is an International 4-day event that consists of sports competitions, social and cultural events along with concerts.">
+    <meta name="msapplication-TileColor" content="#0090C5">
+    <meta name="theme-color" content="#0090C5">
+    <meta name="robots" content="index, follow">
+    <!-- Cache  -->
+    <meta http-equiv="Cache-control" content="no-cache">
+
+
+    <style>
+        @media (min-width: 780px) {
+
+
+            .x {
+                margin-left: 0;
+                color: white;
+                transform: skewX(-15deg);
+                flex-wrap: wrap;
+            }
+
+            .headings {
+                transform: skewX(15deg);
+            }
+
+            li {
+                margin-left: 0px;
+                margin-right: 12px;
+            }
+
+            .regdiv {
+                float: left
+            }
+
+        }
+
+        @media (max-width: 780px) {
+            .hellobro {
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                min-height: 10vh;
+                z-index: 1030;
+                /* width: 98% */
+            }
+
+            .topnavwidth {
+                width: 102%;
+            }
+
+            .regbtn {
+                margin-top: -5.5px;
+            }
+
+            .regdiv {
+                float: right
+            }
+
+            /* footer styles */
+            .footer-logo {
+                height: 8vh;
+                width: auto;
+                margin-left: 10px;
+            }
+
+            .rb {
+                border-right: 0 !important;
+            }
+        }
+
+        /* .navbar-nav>.active>a {
+            color: aqua;
+            background-color: chartreuse;
+        }
+
+        .nav-item>a:hover {
+            color: aqua;
+        } */
+        /* .navbar-nav {
+            padding: 10px 0;
+        } */
+        body {
+            background-color: #121212;
+            font-family: montserrat;
+        }
+
+        .navbar {
+            padding: 0 1rem;
+        }
+
+        ul {
+            text-align: center
+        }
+
+        .sec-one {
+            min-height: 50vh;
+            background: url("../assets/images/patterns\ back.jpg") center center no-repeat;
+            background-size: cover;
+        }
+
+        .sec-one-cont {
+            height: auto;
+            color: white;
+        }
+
+        p {
+            margin-top: auto;
+            user-select: none;
+            margin-bottom: auto;
+        }
+
+        .navbar-expand-lg {
+            background-color: #121212
+        }
+
+
+        .teamDetails {
+            background-color: #121212;
+            padding-bottom: 60px;
+        }
+
+        .cor-name {
+            text-align: center;
+            color: white;
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            backface-visibility: hidden;
+            cursor: default;
+            user-select: none;
+        }
+
+        .cor-circle {
+            text-align: center;
+            opacity: 1;
+            transition: .5s ease;
+
+        }
+
+        .hov {
+            text-align: center;
+            position: relative;
+        }
+
+        .hov:hover .cor-circle {
+            opacity: 0.65;
+        }
+
+        .hov:hover .cor-name {
+            opacity: 1;
+        }
+
+        body {
+            overflow-x: hidden
+        }
+
+        .cor-circle:hover {
+            transform: scale(1.1);
+        }
+
+        /* .m10{
+            margin-top: 10px;
+        } */
+        .nav-link {
+            padding-right: 3px !important;
+        }
+        .navbar-nav{
+            width: 100%;
+        }
+
+        /* Contact Us styles */
+        .contact-us {
+            background-color: #282828;
+        }
+
+        .footer-icons {
+            color: white;
+            transform: scale(2);
+            margin-left: 40px;
+            margin-top: 7px;
+        }
+
+        .footer-logo {
+            height: 15vh;
+            width: auto;
+        }
+
+        .content p {
+            color: white;
+            font-size: 16px
+        }
+        .footerdeet{
+            padding-left: 120px;
+        }
+        @media(max-width: 575px) {
+            .footerdeet{
+            padding-left: 50px;
+        } 
+        .footer-logo{
+            height: 12vh;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height: 45vh;border-bottom: 4px solid #0090C5;" class="sec-one">
+        <div style="position : relative ; ">
+            <div class="container topnavwidth" style="position: absolute; left : 0; transform : translateX(-2%)">
+                      
+
+            </div>
+            <div style="float: right;">
+                <button
+                    style="transform :scale(0.75); border: 2px solid #FFFFFF;color: #FFFFFF;border-radius: 32px;margin-top: 10px;"
+                    type="button" class="btn regbtn btn-primary-outline" data-toggle="modal"
+                    onclick="window.location.href = 'https://taplink.cc/josh2k23'">Register</button>
+            </div>
+        </div>
+      
+    </div>
+
+
+
+
+
+
+   
+    <!-- principal -->
+    <div class="container-fluid teamDetails">
+        <div class="row" style="text-align : center">
+            <div style="margin: 100px auto 0;">
+                <p
+                    style="font-size : 30px; color :white; text-align: center;margin:auto auto;border-bottom: 2px solid #0090C5;">
+                    Principal
+                </p>
+            </div>
+        </div>
+        <div class="row" style="padding : -1vh 24vw;text-align: center; height : auto">
+
+            <div class="col-12 hov">
+                <div class="cor-circle">
+                    <img src="../assets/vit-img/principalPic.jpg" style="height : 180px; width : auto;box-shadow: 5px 5px #0090c5 ">
+                </div>
+                <div class="cor-name">
+                    Dr.N.Sudhakar Reddy
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Convener -->
+    <div class="container-fluid teamDetails">
+        <div class="row" style="text-align : center">
+            <div style="margin: 100px auto 0;">
+                <p
+                    style="font-size : 30px; color :white; text-align: center;margin:auto auto;border-bottom: 2px solid #0090C5;">
+                   Convener
+                </p>
+            </div>
+        </div>
+        <div class="row" style="padding : -1vh 24vw;text-align: center; height : auto">
+
+            <div class="col-12 hov">
+                <div class="cor-circle">
+                    <img src="../assets/vit-img/convenorPic.jpg" style="height : 180px; width : auto;box-shadow: 5px 5px #0090c5 ">
+                </div>
+                <div class="cor-name">
+                 Dr.S.Murali Krishna 
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <!-- co conveners -->
+    <div class="container-fluid teamDetails">
+        <div class="row" style="text-align : center">
+            <div style="margin: 0 auto 0;">
+                <p
+                    style="font-size : 30px; color :white; text-align: center;margin:auto auto;border-bottom: 2px solid #0090C5;">
+                    Co-Conveners
+                </p>
+            </div>
+        </div>
+        <div class="row" style="padding : -1vh 24vw;text-align: center; height : auto">
+            <div class="col-12 col-lg-4 hov" style="margin-top : 20px; margin-bottom : 20px">
+                <div class="cor-circle">
+                </div>
+                <div class="cor-name">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 hov" style="margin-top : 20px; margin-bottom : 20px">
+                <div class="cor-circle">
+                    <img src="../assets/vit-img/coconvenorPic.jpg" style="height : 180px; width : auto;box-shadow: 5px 5px #0090c5">
+                </div>
+                <div class="cor-name">
+                    Dr.R.Swathi
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 hov" style="margin-top : 20px; margin-bottom : 20px">
+                <div class="cor-circle">
+                </div>
+                <div class="cor-name">
+                </div>
+            </div>
+        </div>
+             
+        <!-- co conver2 -->
+        <div class="row" style="padding : -1vh 24vw;text-align: center; height : auto">
+            <div class="col-12 col-lg-4 hov" style="margin-top : 20px; margin-bottom : 20px">
+                <div class="cor-circle">
+                </div>
+                <div class="cor-name">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 hov" style="margin-top : 20px; margin-bottom : 20px">
+                <div class="cor-circle">
+                    <img src="../assets/images/EEE HOD PIC.jpg" style="height : 180px; width : auto;box-shadow: 5px 5px #0090c5">
+                </div>
+                <div class="cor-name">
+                    Dr.V.Lakshmi Devi
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 hov" style="margin-top : 20px; margin-bottom : 20px">
+                <div class="cor-circle">
+                </div>
+                <div class="cor-name">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    </div>
+
+    
+    <!-- Footer -->
+
+    <div class="contact-us" style="padding-bottom: 80px;">
+        <div class="container-fluid">
+            <div class="row" style="text-align: center">
+                <p
+                    style="text-align: center;margin:20px auto 0;border-bottom: 2px solid #0090C5;color:white;font-size: 40px">
+                    Contact Us</p><br>
+            </div>
+        </div>
+        <div class="container-fluid" style="padding-top: 70px;">
+            <div class="row">
+                <div class="col-12 col-lg-6 rb"
+                    style="display: flex; justify-content: center;border-right: 1px solid #0090C5; margin-bottom: 20px;">
+                    <img src="../assets/images/joshLogo.png" class="footer-logo">
+                </div>
+                <div class="col-12 col-lg-6 footerdeet">
+                    <div class="row">
+                        <div class="col-3 col-lg-2">
+                            <i class="fas fa-map-marker-alt footer-icons"></i>
+                        </div>
+                        <div class="col-9 col-lg-8">
+                            <div class="content">
+                                <p>SV College of Engineering</p>
+                                <p>Karakambadi Road</p>
+                                <p>Tirupati - 517507</p>
+                                <p>Andhra Pradesh, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col-3 col-lg-2">
+                            <i class="far fa-envelope footer-icons"></i>
+                        </div>
+                        <div class="col-9 col-lg-8 content">
+                            <a style="text-decoration: none; color: white;"
+                                href="mailto:josh2023@svce.edu.in">josh2023@svce.edu.in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

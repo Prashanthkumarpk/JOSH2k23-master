@@ -1,0 +1,440 @@
+body {
+  font-family: montserrat;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #111111;
+  z-index: 99;
+}
+
+#status {
+  width: 25vw;
+  height: auto;
+  position: absolute;
+  left: 37%;
+  top: 40%;
+}
+#status img {
+  width: 100%;
+  height: 100%;
+}
+
+#riviera-loading {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* .navbar-nav>.active>a {
+            color: aqua;
+            background-color: chartreuse;
+        }
+
+        .nav-item>a:hover {
+            color: aqua;
+        } */
+/* body{
+            font-family: 'Montserrat';
+        } */
+.navbar-nav {
+  padding: 10px;
+}
+
+.nav-link {
+  padding-right: 1px !important;
+  padding-left: 1px !important;
+}
+
+ul {
+  text-align: center;
+}
+
+.sec-one {
+  background: url("../assets/images/backstage.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.sec-one-cont {
+  height: auto;
+  color: white;
+}
+
+p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navbar-expand-lg {
+  background-color: #121212;
+}
+
+/* body {
+            overflow: hidden
+        } */
+.navbar-nav {
+  width: 100%;
+}
+
+.regbtn:hover {
+  transform: scale(1.1);
+}
+
+.content p {
+  color: white;
+  font-size: 16px;
+}
+
+.card-title {
+  text-align: center;
+  color: white;
+}
+
+.card-body {
+  background-color: #282828;
+}
+
+h5 {
+  color: white;
+}
+
+.cardsTop {
+  margin-bottom: 20px;
+  /* background-color: #282828; */
+}
+
+.card {
+  background-color: #282828;
+}
+
+/* .m10{
+            margin-top: 10px;
+        } */
+
+/* Contact Us styles */
+.contact-us {
+  background-color: #282828;
+}
+
+.footer-icons {
+  color: white;
+  transform: scale(2);
+  margin-left: 40px;
+  margin-top: 7px;
+}
+
+.footer-logo {
+  height: 15vh;
+  width: auto;
+}
+
+@media (min-width: 780px) and (max-width: 1200px) {
+  .nav-item {
+    padding-left: 7px;
+    padding-right: 6px;
+  }
+
+  /* .headings{
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            } */
+}
+
+@media (min-width: 1200px) {
+  li {
+    padding-left: 10px;
+    padding-right: 6px;
+  }
+}
+
+@media (min-width: 780px) {
+  /* .nav-desk {
+                height: 50px;
+            } */
+
+  .x {
+    margin-left: 0;
+    color: white;
+    transform: skewX(-15deg);
+    flex-wrap: wrap;
+  }
+
+  .headings {
+    transform: skewX(15deg);
+  }
+
+  .mainInfo {
+    margin: 0 5vw;
+  }
+
+  .moreInfoBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 780px) {
+  .riviera-logo {
+    height: 100px;
+  }
+
+  .landing-heading {
+    height: 15px;
+  }
+
+  .hellobro {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    min-height: 8vh;
+  }
+
+  .footer-logo {
+    height: 8vh;
+    width: auto;
+    margin-left: 10px;
+  }
+
+  .rb {
+    border-right: 0 !important;
+  }
+
+  /* #status {
+                left: 15%;
+            } */
+
+  #riviera-loading {
+    left: 40%;
+  }
+}
+
+.footerdeet {
+  padding-left: 120px;
+}
+
+@media (max-width: 575px) {
+  .footerdeet {
+    padding-left: 50px;
+  }
+
+  .footer-logo {
+    height: 12vh;
+  }
+
+  /* #status {
+                left: 7%;
+            } */
+
+  #riviera-loading {
+    left: 32%;
+  }
+}
+@media only screen and (device-width: 768px) {
+  #status {
+    left: 25%;
+  }
+  #riviera-loading {
+    left: 40%;
+  }
+}
+
+/* custom styles */
+
+.NavUpdate {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* my changes */
+
+@font-face {
+  font-family: "neontubes";
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot");
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2")
+      format("woff2"),
+    url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff")
+      format("woff"),
+    url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #030c1c;
+  } */
+
+.main {
+  /* display: block;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 50vw;
+    height: auto; */
+
+  font-family: "neontubes";
+  font-size: 17vw;
+  text-align: center;
+  white-space: nowrap;
+}
+.main span {
+  display: block;
+  position: relative;
+  -webkit-transform: translateZ(0) translate3D(0, 0, 0);
+  transform: translateZ(0) translate3D(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: opacity;
+}
+.main .webdev {
+  color: #ffffff;
+    text-shadow: 0 0 0 transparent, 0 0 10px #FFD700, 0 0 20px #ffc107, 0 0 40px #FFD700, 0 0 100px #FFD700, 0 0 200px #FFD700, 0 0 300px #FFD700, 0 0 500px #FFD700, 0 0 1000px #FFD700;
+  -webkit-animation: blink 2s infinite alternate;
+  animation: blink 2s infinite alternate;
+}
+.main .socod {
+  font-size: 6vw;
+  color: #d4eaff;
+  text-shadow: 0 0 0 transparent, 0 0 10px #2695ff,
+    0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff,
+    0 0 200px #2695ff, 0 0 300px #2695ff, 0 0 500px #2695ff;
+  -webkit-animation: buzz 0.01s infinite alternate;
+  animation: buzz 0.01s infinite alternate;
+  padding: auto;
+}
+
+@-webkit-keyframes buzz {
+  70% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes buzz {
+  70% {
+    opacity: 0.8;
+  }
+}
+@-webkit-keyframes blink {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .main {
+    /* width: 400px; */
+    font-size: 12vw;
+  }
+
+  .main .socod {
+    font-size: 5vw;
+  }
+}
+
+
+/* Register button animation */
+
+
+
+.mtop{
+    margin-top: 8vw;
+}
+
+
+
+
+.btn1 {
+    padding: 0 20px;
+    height: 50px;
+    margin: 0;
+    background-size: 100%;
+    background-image: linear-gradient(#f12c51, #e11b41);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+  }
+  .btn1 span{
+    z-index:10;
+    position:relative;
+  }
+  
+  .btn--glow {
+    position:relative;
+    overflow:hidden;
+  }
+  
+  .btn--glow:before{
+    content:'';
+    position: absolute;
+    left: -20%;
+    top:-10%;
+    width: 0;
+    height: 100%;
+    transform: rotate(15deg) scale(1, 2);
+    box-shadow: 0 0 30px 15px rgba(255, 255, 255, 0.7);
+    animation: button-glow 3000ms ease-in-out infinite;
+  }
+  
+  @keyframes button-glow {
+    0% {
+      left: -20%;
+    }
+    50% {
+      left: 120%;
+    }
+    100% {
+      left: 120%;
+    }
+  }
+  
